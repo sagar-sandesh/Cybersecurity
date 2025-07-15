@@ -26,3 +26,6 @@ Learn how to perform basic port scanning, service detection, and OS fingerprinti
 - Save results with `-oN filename.txt`.
 
 ## Commands Used  
+nmap -sT -p- -O 192.168.56.101
+nmap -sV -p21,22,80 192.168.56.101
+
